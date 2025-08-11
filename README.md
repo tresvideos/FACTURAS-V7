@@ -1,19 +1,20 @@
-# Facturas V7.1 (Vite + React + Tailwind)
+# Facturas V7 (Vite + React + Tailwind)
 
-Nuevo flujo:
-- Inicio → Plantillas (10) con previews y modal de ejemplo.
-- Builder con formulario completo (emisor, cliente, logo, colores, descuentos %, €), preview en vivo.
-- Descarga gated por auth (login/signup + botón Google no funcional).
-- Panel con Facturas Creadas (visualizar, editar, descargar/imprimir, eliminar, renombrar), Ayuda (FAQ + planes), Cuenta (desuscribirse), Contacto, Eliminar cuenta.
+Single-file React app con Tailwind y Vite. Límite de 3 facturas gratis, plantillas, editor, previsualización/descarga, login/signup local.
 
-## Dev
+## Desarrollo
+```bash
 npm install
 npm run dev
+```
 
 ## Build
+```bash
 npm run build
 npm run preview
+```
 
-## Vercel
-Build Command: npm run build
-Output: dist
+## Despliegue en Vercel
+- Importa este repo en Vercel.
+- Build Command: `npm run build`
+- Output Directory: `dist`
