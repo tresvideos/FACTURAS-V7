@@ -1,0 +1,1 @@
+export default function Instrucciones(){ return <div className='card'>Instrucciones pronto.</div>; }
